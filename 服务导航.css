@@ -1,0 +1,487 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.header{
+    width: 1000px;
+    height: 120px;
+    background-color:#fff;
+    margin: 0 auto;
+
+}
+.header .logo
+{
+  
+    float: left;
+    margin-left: 10px;
+    margin-right: 0px;
+    padding-top: 10px;
+   margin-top: 15px;
+}
+.header .logo img{
+    display: block;
+    float: left;
+}
+
+.header .logo h3{
+    display: block;
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+    color: #024682;
+
+
+}
+.header .logo p{
+ 
+   
+    display: block;
+    height: 30px;
+    /* 问题在于文字的伸长 */
+    font-size: 8px;
+    color: #024682;
+}
+.header .logo a{
+   
+    text-decoration: none;
+}
+.search{
+    margin: 0;
+    height: 90%;
+    position: relative;
+    margin-left: auto;
+    min-width: 415px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    float: right;
+     
+}
+.search .sousuo{
+    border: 1px solid #EE1E11;
+   
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0px 0 0px 10px;
+    float: right;
+    border-radius: 10px 12px 13px 10px;
+    
+
+}
+.search .sousuo input{
+    border: 0;
+        outline: none;
+    margin-left: 10px;
+    background-color: transparent;
+}
+.search .sousuo button{
+    border: none;
+    background-color: #EE1E11;
+    color: #FFFFFF;
+    width: 80px;
+    height: 40px;
+    float: right;
+    font-size: 18px;
+    border-radius: 0 10px 10px 0;
+    outline: none;
+
+}
+
+.header ul li {
+    float: right;
+    list-style: none;
+   
+    
+}
+.header ul li {
+    margin-left: 10px;
+}
+.header ul li .name1{
+    border-right: 1px solid black;
+ padding-right: 8px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: black;
+}
+.header ul li a:hover{
+    color: #EE1E11;
+}
+/* 导航栏 */
+.daohang{
+    height: 50px;
+    background-color:#004193 ;
+    
+}
+.daohang ul{
+    width: 1200px;
+    height: 50px;
+    background-color: #004193;
+    margin: 0 auto
+}
+.daohang ul li{
+    list-style: none;
+    float: left;
+    line-height: 50px;
+    
+    padding-right: 100px;
+
+}
+.daohang ul li a{
+    text-decoration: none;
+    color:white;
+ 
+ 
+  
+}
+.daohang ul li a:hover{
+    color: #EE1E11;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #EE1E11 ;
+
+}
+.daohang ul li .ll{
+    border-bottom: 3px solid #EE1E11;
+}
+div{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.big .suoyin {
+    margin-top: 52px;
+
+}
+.big .suoyin span {
+    margin-left: 180px;
+  
+}
+.big .suoyin span a{
+    text-decoration: none;
+    color: black;
+}
+.big .suoyin span a:hover{
+    color: #EE1E11;
+}
+.front{
+    width: 1100px;
+    height: 36px;
+    line-height: 36px;
+    font-family: 微软雅黑;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+ 
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(221, 221, 221) rgb(221, 221, 221) rgb(2, 64, 104);
+    border-image: initial;
+    border-bottom: 1px solid rgb(2, 64, 104);
+}
+.front .ptfw{
+    background: #EE1E11;
+    color: #fff;
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 25px;
+    margin-left: 11px;
+    font-weight: bold;
+    font-size: 14px;
+    float: left;
+}
+.information{
+    width: 1100px;
+    height: 300px;
+   
+    border: 1px #ddd solid;
+}
+.first
+{
+    width: 1100px;
+
+   
+}
+.first ul li{
+    list-style: none;
+    width: 258px;
+    height: 50px;
+    line-height: 50px;
+    margin: 10px 5px 10px 10px;
+    float: left;
+    background-color: #EEEEEE;
+    cursor: pointer;
+    border: 1px solid #EEEEEE;
+} 
+.first ul li:hover{
+    border-color: #EE1E11;
+    background-color: #fff;
+  
+}
+
+.first ul li img{
+    width: 40px;
+    height: 35px;
+    margin: 6px;
+    float: left;}
+
+.first ul li .x1{
+    height: 50px;
+    width: 257px;
+    line-height: 50px;
+}
+.first ul li .x1 .c1{
+    width: 200px;
+    text-decoration: none;   
+    color: #666666;
+    display: block;
+    float: left;
+}
+.first ul li .x1 .c1:hover{
+    color: rgb(9, 92, 147);
+}
+
+
+
+.second
+{
+    width: 1100px;
+
+   
+}
+.second ul li{
+    list-style: none;
+    width: 258px;
+    height: 50px;
+    line-height: 50px;
+    margin: 10px 5px 10px 10px;
+    float: left;
+    background-color: #EEEEEE;
+    cursor: pointer;
+    border: 1px solid #EEEEEE;
+} 
+.second ul li:hover{
+    border-color: #EE1E11;
+    background-color: #fff;
+  
+}
+
+.second ul li img{
+    width: 40px;
+    height: 35px;
+    margin: 6px;
+    float: left;}
+
+.second ul li .x1{
+    height: 50px;
+    width: 257px;
+    line-height: 50px;
+}
+.second ul li .x1 .c1{
+    width: 200px;
+    text-decoration: none;   
+    color: #666666;
+    display: block;
+    float: left;
+}
+.second ul li .x1 .c1:hover{
+    color: rgb(9, 92, 147);
+}
+
+
+
+
+.third
+{
+    width: 1100px;
+
+   
+}
+.third ul li{
+    list-style: none;
+    width: 258px;
+    height: 50px;
+    line-height: 50px;
+    margin: 10px 5px 10px 10px;
+    float: left;
+    background-color: #EEEEEE;
+    cursor: pointer;
+    border: 1px solid #EEEEEE;
+} 
+.third ul li:hover{
+    border-color: #EE1E11;
+    background-color: #fff;
+  
+}
+
+.third ul li img{
+    width: 40px;
+    height: 35px;
+    margin: 6px;
+    float: left;}
+
+.third ul li .x1{
+    height: 50px;
+    width: 257px;
+    line-height: 50px;
+}
+.third ul li .x1 .c1{
+    width: 200px;
+    text-decoration: none;   
+    color: #666666;
+    display: block;
+    float: left;
+}
+.third ul li .x1 .c1:hover{
+    color: rgb(9, 92, 147);
+}
+.zhongjian{
+    width: 1100px;
+    height: 36px;
+    line-height: 36px;
+    font-family: 微软雅黑;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+ 
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(221, 221, 221) rgb(221, 221, 221) rgb(2, 64, 104);
+    border-image: initial;
+    border-bottom: 1px solid rgb(2, 64, 104);
+    margin-top: 20px;
+}
+.zhongjian .ptss{
+    background: #EE1E11;
+    color: #fff;
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 25px;
+    margin-left: 11px;
+    font-weight: bold;
+    font-size: 14px;
+    float: left;
+}
+.xiamian{
+    overflow: hidden;
+    width: 100%;
+    width: 1036px;
+    padding: 15px 32px 0;
+    color: #313212;
+    height: 700px;
+    border: 1px solid #EEEEEE;
+ 
+}
+
+.xiamian .map{
+    height: 440px;
+    width: 1000px;
+   
+     
+}
+.xinxi{
+    
+    width: 1035px;
+    height: 255px;
+    background-color: #fff;
+    padding: 10px 12px;
+
+}
+.xinxi tr{
+width: 1015px;
+height: 53.6px;
+
+}
+.xinxi tr .u1,.u2{
+    border: 2px solid #fff;
+   font-size: 18px;
+   font-weight: 700px;
+   font-family:微软雅黑 ;
+    width: 100px;
+    padding: 8px 30px;
+    text-align: left;
+    height: 40px;
+    line-height: 40px;
+    color: #333;
+    background-color: rgb(255, 238, 221);
+
+} 
+.xinxi tr .u2{
+    color: rgb(204, 0, 0);
+}
+.xinxi tr .y1{
+    width: 500px;
+    border: 2px solid #fff;
+    background: #eee;
+    padding: 6px 30px;
+    text-align: left;
+    margin: 20px;
+    height: 40px;
+    line-height: 40px;
+    color: #333;
+    font-size: 18px;
+}
+.dibu{
+    border-top: 4px solid #969696;
+    min-width: 1000px;
+    max-width: 1920px;
+    height: 165px;
+    background: #1D65CE;
+    margin-top: 15px;
+    overflow: hidden;
+   
+}
+.dibu .m{
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 35px;
+
+    height: 115px;
+    margin-bottom: 20px;
+}
+.dibu .m .x img{
+    width: 80px;
+    height: 80px;
+    float: left;
+
+
+}
+.dibu .y{
+    float: left;
+    color: #FFF;
+    line-height: 25px;
+    height: 150px;
+    margin-left: 120px;
+    font-size: 14px;
+}
+.dibu .y a{
+    color: #fff;
+    text-decoration: none;
+}
+.dibu .y .gg{
+position: relative;
+bottom: 25px;
+    float:right;
+   
+}
+.dibu .y a:hover{
+    color: #EE1E11;
+}
+.dibu .z {
+    float: right;
+}
+.dibu .z img{
+    height: 80px;
+    width: 80px;
+    float: right;
+}
+.dibu .z p{
+    float:right;
+    color: #fff;
+    position: relative;
+    top: 85px;
+    left: 85px;
+}
+ 
